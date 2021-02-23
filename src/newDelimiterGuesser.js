@@ -10,7 +10,7 @@ export default function newDelimiterGuesser(delimiters = [';', ',', '|', '\t']) 
     splitter: dsvFormat(d)
   }));
 
-  async function done() {
+  function done() {
     slots.forEach((slot) => {
       slot.sigma = getSigma(slot.lengths);
       slot.mean = getMean(slot.lengths);
