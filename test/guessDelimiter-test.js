@@ -14,7 +14,7 @@ function test(list, delim) {
     const delimiter = guessDelimiter();
     const f = compose(
       delimiter.guesser,
-      arraysFromDsv({ delimiter }),
+      arraysFromDsv(delimiter),
     );
     for await (let array of f(list)) {
       t.deepEqual(array, list[i++].split(delim));

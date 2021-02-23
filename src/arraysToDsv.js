@@ -1,6 +1,6 @@
 import { dsvFormat } from 'd3-dsv';
 
-export default function arraysToDsv({ delimiter = ';' } = {}) {
+export default function arraysToDsv(delimiter = ';') {
   return async function* (it) {
     let xsv;
     for await (let array of it) {
