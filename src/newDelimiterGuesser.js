@@ -32,7 +32,7 @@ export default function newDelimiterGuesser(delimiters = [';', ',', '|', '\t']) 
 
   function getMean(list) {
     list.sort();
-    return list[Math.round(list.length / 2)];
+    return list[Math.floor(list.length / 2)];
   }
 
   function getSigma(list) {
