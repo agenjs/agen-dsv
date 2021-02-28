@@ -1,6 +1,6 @@
 {
   "name": "@agen/dsv",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Split lines to arrays using Async Iterators",
   "keywords": [
     "async",
@@ -27,7 +27,7 @@
     "pretest": "rollup -c",
     "test": "node -r esm ./test/index.js && eslint src",
     "prepublishOnly": "rm -rf dist && yarn test",
-    "postpublish": "dsv -j dist/agen-dsv.zip -- LICENSE README.md dist/*.js"
+    "postpublish": "zip -j dist/agen-dsv.zip -- LICENSE README.md dist/*.js"
   },
   "sideEffects": false,
   "devDependencies": {
