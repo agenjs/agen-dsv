@@ -18,7 +18,7 @@
   "module": "dist/agen-dsv-esm.js",
   "exports": {
     "package.json": "./package.json",
-    "import": "./src/index.js",
+    "import": "./dist/agen-dsv-esm.js",
     "require": "./dist/agen-dsv.js"
   },
   "repository": {
