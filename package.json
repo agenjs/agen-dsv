@@ -1,6 +1,6 @@
 {
   "name": "@agen/dsv",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Split lines to arrays using Async Iterators",
   "keywords": [
     "async",
@@ -11,7 +11,7 @@
   "author": {
     "name": "Mikhail Kotelnikov"
   },
-  "type" : "module",
+  "type": "module",
   "main": "dist/agen-dsv.js",
   "unpkg": "dist/agen-dsv.min.js",
   "jsdelivr": "dist/agen-dsv.min.js",
