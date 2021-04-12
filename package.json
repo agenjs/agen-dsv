@@ -11,10 +11,16 @@
   "author": {
     "name": "Mikhail Kotelnikov"
   },
+  "type" : "module",
   "main": "dist/agen-dsv.js",
   "unpkg": "dist/agen-dsv.min.js",
   "jsdelivr": "dist/agen-dsv.min.js",
   "module": "dist/agen-dsv-esm.js",
+  "exports": {
+    "package.json": "./package.json",
+    "import": "./src/index.js",
+    "require": "./dist/agen-dsv.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/agenjs/agen-dsv.git"
